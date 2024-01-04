@@ -1,6 +1,6 @@
 /********** Template CSS **********/
 :root {
-	--primary: #f3bd00;
+	--primary: #00ffff;
 	--secondary: #757575;
 	--light: #f3f6f8;
 	--dark: #0c2b4b;
@@ -57,6 +57,11 @@
 .btn-sm-square {
 	width: 32px;
 	height: 32px;
+}
+
+.logoSettings {
+	width: 200px;
+	height: 80px;
 }
 
 .btn-lg-square {
@@ -275,7 +280,27 @@
 	height: 100%;
 	opacity: 1;
 }
+/******tellsettings****/
+.tellsettings {
+	/* border: thick double #32a1ce; */
+	text-align: left;
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-top: 30px;
+}
 
+/***essentialsStyle***/
+.essentialsStyle {
+	border: thick double #32a1ce;
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-top: 30px;
+}
+.essentialParagraph {
+	margin-top: 30px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
 /*** Testimonial ***/
 .testimonial-carousel .owl-dots {
 	height: 40px;
